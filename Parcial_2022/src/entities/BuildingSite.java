@@ -33,9 +33,9 @@ public void addJob(Job job) {
 }
 
 public double getOverallBudget() {
-    double overallBudget = 0.0;
+    double overallBudget = 0;
     for (Job job : jobs) {
-        overallBudget += job.calculateBudget();
+        overallBudget += job.calculoSubTotal();
     }
     return overallBudget;
 }

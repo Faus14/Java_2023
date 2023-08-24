@@ -12,7 +12,7 @@ public class FixedPriceJob extends Job {
 		this.agreedBudget = agreedBudget;
 	}
 	
-	public double calculateBudget () {
+	public double calculoSubTotal () {
         return agreedBudget + insuranceCost;
     }
 }

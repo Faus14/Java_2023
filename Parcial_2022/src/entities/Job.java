@@ -41,8 +41,8 @@ public void setInsuranceCost(double insuranceCost) {
 public double getOveralBudget() {
     return insuranceCost; 
 }
-public double calculateBudget() {
-    return 0.0;
+public double calculoSubTotal() {
+    return 0;
 }
 
 }

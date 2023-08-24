@@ -5,7 +5,7 @@ public class HourlyRatedJob  extends Job{
 	  private Contratist contractor;
 
 	    @Override
-	    public double calculateBudget() {
+	    public double calculoSubTotal() {
 	        return estimatedHours * contractor.getHourlyRate() + insuranceCost;
 	    }
 

@@ -16,7 +16,7 @@ public void setQuantity(double quantity) {
 private WorkType workType;
 
 @Override
-public double calculateBudget() {
+public double calculoSubTotal() {
     return quantity * workType.getQuantityRate() + insuranceCost;
 }
 
